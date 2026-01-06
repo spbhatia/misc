@@ -680,3 +680,281 @@ Citations:
 [102] Bash/Shell Courses & Tutorials https://www.codecademy.com/catalog/language/bash
 [103] 10 Bash Script Code Challenges for Beginners https://www.codecademy.com/resources/blog/bash-script-code-challenges-for-beginners
 [104] Mastering Bash Scripts & Cron Jobs for Automation https://www.youtube.com/watch?v=t4sAFxfUcWc
+
+
+
+
+
+
+
+
+
+Can you suggest some alternative course from Udemy or youtube. for below. 
+Watch LinkedIn Learning: "Troubleshooting Network Connectivity" - Introduction + OSI Layer Overview
+
+Hey Sanket! Great question, my friend. Let me give you some excellent alternatives that are just as good (or even better in some cases) - and many are completely FREE! 🎉
+
+***
+
+## **🎯 Best Alternatives for OSI Model & Network Troubleshooting**
+
+### **Option 1: YouTube - FREE & EXCELLENT Quality**
+
+#### **BEST OVERALL FREE ALTERNATIVE:**
+
+**"Computer Networking Full Course - OSI Model Deep Dive" by Kunal Kushwaha**[1]
+- **Duration**: 4+ hours (but you only need specific sections)
+- **Why it's perfect**: Deep dive into OSI with real-life examples
+- **Key Timestamps for Day 1:**
+  - **1:06:33 - OSI Model (7 Layers)** ⭐ **START HERE - Watch this 22-minute section**
+  - 1:29:00 - TCP/IP Model (5 Layers)
+  - 2:19:00 - DNS (Domain Name System) 
+  - 3:02:05 - TCP Protocol
+  
+**Watch Time for Day 1**: 1:06:33 to 1:50:00 (about 45 minutes total)
+**Link**: https://www.youtube.com/watch?v=IPvYjXCsTg8
+
+This is probably **THE BEST** free resource for understanding OSI model with practical context!
+
+***
+
+#### **SECOND RECOMMENDATION (My Personal Favorite):**
+
+**"OSI Model: A Practical Perspective" by Practical Networking**[2]
+- **Duration**: Only 13 minutes!
+- **Why it's AMAZING**: Doesn't focus on memorization - teaches you the PURPOSE and GOALS of each layer
+- **Perfect for**: Understanding HOW to use OSI for troubleshooting (exactly what Karat wants!)
+- **Link**: https://www.youtube.com/watch?v=LkolbURrtTs
+
+**BONUS**: They have a complete FREE series on "How Data Moves Through the Internet"[3]
+- Full playlist: https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi
+- Lesson 7 covers: "What happens when you type a URL?" (common interview question!)
+
+***
+
+#### **QUICK REFRESHERS (Choose One):**
+
+**Option A: "OSI Model Explained" by Dion Training**[4]
+- Duration: 9 minutes
+- Perfect for: Quick, beginner-friendly explanation
+- Real-world examples included
+- Link: https://www.youtube.com/watch?v=tp8_bEzL6t0
+
+**Option B: "What is OSI Model in Computer Network" by Learn with Whiteboard**[5]
+- Duration: 12 minutes  
+- Visual whiteboard-style teaching
+- Each layer explained with examples
+- Timestamps:
+  - 0:45 - Physical Layer
+  - 2:29 - Data Link Layer
+  - 4:20 - Network Layer
+  - 6:08 - Transport Layer
+  - 7:55 - Session Layer
+  - 9:14 - Presentation Layer
+  - 10:27 - Application Layer
+- Link: https://www.youtube.com/watch?v=OdCmjtzAphY
+
+**Option C: "TCP/IP Model vs OSI Model" by David Bombal**[6][7]
+- Duration: 30 minutes
+- From his FREE CCNA 2025 course
+- Key sections:
+  - 5:57 - TCP/IP vs OSI: Key Differences
+  - 11:47 - What Each OSI Layer Does
+  - 20:25 - Deep Dive: Layer 3 (Network Layer)
+- Link: https://www.youtube.com/watch?v=apr63p7K_3A
+
+***
+
+### **Option 2: Udemy Business (If You Have Access)**
+
+**"The Complete Networking Fundamentals Course" by David Bombal**[8][9][10]
+- **Duration**: 77-80 hours total (but you'll watch selectively)
+- **Rating**: 4.5/5 stars with 14,000+ reviews
+- **Reddit Approved**: Heavily recommended in r/ccna community[11]
+- **What to Watch for Day 1**: 
+  - Section on OSI Model (probably 1-2 hours)
+  - Section on TCP/IP Model (1 hour)
+  - Section on Network Fundamentals
+  
+**Link**: Search "David Bombal Complete Networking Fundamentals" in your Udemy Business portal
+
+**Why it's great**:[12][9]
+- 128 downloadable resources
+- Hands-on labs with Packet Tracer and GNS3
+- Covers everything from basics to advanced topics
+- Lifetime access if purchased
+- Often on sale for ₹800-1200 (if not included in your business account)
+
+***
+
+### **Option 3: Another Udemy Alternative**
+
+**"Networking Fundamentals & Troubleshooting Masterclass"**[13]
+- Shorter, beginner-focused course
+- Covers: Router configuration, LAN setup, network troubleshooting
+- Includes quizzes and hands-on practice
+- Good for: Quick fundamentals without CCNA depth
+
+***
+
+## **🎯 My Recommendation for YOUR Situation:**
+
+### **Day 1 Modified Schedule (FREE YouTube Route):**
+
+**Morning Session (30 min):**
+1. Watch: Kunal Kushwaha's OSI Model section (1:06:33 - 1:29:00) = 22 minutes
+2. Quick notes while watching
+
+**Practice Session (45 min):**
+1. Watch: Practical Networking "OSI Model: A Practical Perspective" (13 min)
+2. Create your OSI flashcards based on BOTH videos
+3. Practice explaining each layer out loud
+
+**Review (15 min):**
+1. Watch: Dion Training quick 9-minute OSI recap
+2. Quiz yourself on all 7 layers
+
+**Total Cost: ₹0** ✅
+
+***
+
+### **OR - If You Have Udemy Business Access:**
+
+**Morning Session (30 min):**
+- David Bombal's Complete Networking Course - OSI Model section
+
+**Practice Session (45 min):**
+- Continue with Bombal's TCP/IP section + Create flashcards
+
+**Review (15 min):**
+- Watch Practical Networking 13-min video for different perspective
+
+***
+
+## **📊 Quick Comparison Table:**
+
+| Resource | Duration | Cost | Best For | Quality |
+|----------|----------|------|----------|---------|
+| Kunal Kushwaha YouTube | 22-45 min (selective) | ₹0 | Deep understanding | ⭐⭐⭐⭐⭐ |
+| Practical Networking | 13 min | ₹0 | Troubleshooting mindset | ⭐⭐⭐⭐⭐ |
+| Dion Training | 9 min | ₹0 | Quick refresh | ⭐⭐⭐⭐ |
+| David Bombal Udemy | 2-3 hours | Udemy Business | Comprehensive coverage | ⭐⭐⭐⭐⭐ |
+| LinkedIn Learning | 2 hours | LinkedIn Premium | Structured, professional | ⭐⭐⭐⭐⭐ |
+
+***
+
+## **💡 Pro Tip from Jarvis:**
+
+Sanket, honestly? The **FREE YouTube options are just as good** (sometimes better!) than paid courses for learning OSI fundamentals. Here's why:
+
+1. **Kunal Kushwaha's video** is incredibly detailed with practical examples
+2. **Practical Networking** teaches you to THINK like a troubleshooter (which is what Karat wants to see)
+3. You can watch at 1.25x or 1.5x speed to save time
+4. Free = no pressure, can rewatch anytime
+
+**My Suggested Combo** (Best of both worlds):
+1. **Primary**: Kunal Kushwaha (1:06:33 - 1:29:00) for deep learning
+2. **Secondary**: Practical Networking (13 min) for troubleshooting framework
+3. **Review**: Dion Training (9 min) for quick recap
+
+Total time: ~45 minutes of video
+Cost: ₹0
+Quality: Professional-grade content
+
+***
+
+## **🎬 All Links in One Place:**
+
+**FREE YouTube (RECOMMENDED):**
+- Kunal Kushwaha: https://www.youtube.com/watch?v=IPvYjXCsTg8 (Start at 1:06:33)
+- Practical Networking: https://www.youtube.com/watch?v=LkolbURrtTs
+- Practical Networking Full Series: https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi
+- Dion Training: https://www.youtube.com/watch?v=tp8_bEzL6t0
+- David Bombal (Free): https://www.youtube.com/watch?v=apr63p7K_3A
+
+**Udemy Business:**
+- Search: "Complete Networking Fundamentals David Bombal"
+- Or: "Networking Fundamentals Troubleshooting Masterclass"
+
+***
+
+## **Updated Day 1 Plan (Using Free YouTube):**
+
+### **Saturday, Jan 4 - Networking Fundamentals Day**
+
+**🌅 Morning (30 min): OSI Model Deep Dive**
+- Watch Kunal Kushwaha (1:06:33 - 1:29:00) = 22 minutes
+- Take notes on each layer
+- Pause and rewind as needed
+
+**💪 Practice (45 min): Reinforce & Apply**
+1. Watch Practical Networking (13 min) - Different perspective
+2. Create digital/physical flashcards (20 min):
+   - Layer name, number, function
+   - Key protocols
+   - Common troubleshooting tools
+   - Real-world example
+3. Practice explaining OSI out loud (12 min)
+
+**📝 Review (15 min): Quick Recap & Test**
+- Watch Dion Training 9-min video (faster playback)
+- Self-quiz: Given a network problem, which layer?
+- Write down 2-3 questions you still have
+
+**Total Investment: ₹0 + 1.5 hours of your time** 🎯
+
+***
+
+**Bottom Line, Sanket:**
+
+You don't NEED LinkedIn Learning for this. The YouTube alternatives I've given you are **professional-grade content** that thousands of engineers use to learn. Kunal Kushwaha's video alone is better than many paid courses!
+
+Save your LinkedIn Learning/Udemy for Days 3-4 when you need the troubleshooting scenarios and more structured content.
+
+**Trust me on this one** - start with the free YouTube resources tomorrow. You'll be amazed at how good they are! 💪
+
+Any other questions about the resources, just ask me! I'm here to make sure you crush this interview.
+
+Your AI friend,
+**Jarvis** 🚀
+
+Citations:
+[1] Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples https://www.youtube.com/watch?v=IPvYjXCsTg8
+[2] OSI Model: A Practical Perspective - Networking Fundamentals - Lesson 2a https://www.youtube.com/watch?v=LkolbURrtTs
+[3] Practical Networking .net – Networking presented simply ... https://www.practicalnetworking.net
+[4] OSI Model Explained | Networking Fundamentals for Beginners https://www.youtube.com/watch?v=tp8_bEzL6t0
+[5] What is OSI Model in Computer Network | 7 Layers of OSI Model | OSI Layers Explained with Examples https://www.youtube.com/watch?v=OdCmjtzAphY
+[6] TCP/IP Model vs OSI Model (FREE CCNA 200-301 Course 2025) https://davidbombal.com/tcp-ip-model-vs-osi-model-free-ccna-200-301-course-2025/
+[7] The OSI Model is a lie! | Free CCNA 200-301 Course https://www.youtube.com/watch?v=apr63p7K_3A
+[8] The Complete Networking Fundamentals Course. Your ... https://reddemy.com/course/complete-networking-fundamentals-course-ccna-start/
+[9] 10 Best Computer Networking Courses On Udemy (2025) https://forecastegy.com/posts/best-computer-networking-courses-udemy/
+[10] 5 Best Udemy Cisco Networking Courses in 2025 https://www.tecmint.com/udemy-cisco-networking-courses/
+[11] Hi i am getting into networking. i want to self study. Any good online udemy or any other online courses on core networking that covers every concept? https://www.reddit.com/r/ccna/comments/yahat6/hi_i_am_getting_into_networking_i_want_to_self/
+[12] The Top 10 Networking Courses on Udemy You Need to Take https://solutionsreview.com/network-monitoring/the-top-10-networking-courses-on-udemy-you-need-to-take/
+[13] Networking Fundamentals & Troubleshooting Masterclass https://www.sendowl.com/s/computer-network/networking-fundamentals-troubleshooting-masterclass-by-udemy/
+[14] TCP/IP and OSI Model Breakdown: CCNA Prep & ... https://www.youtube.com/watch?v=TLKUM2EZ1Ow
+[15] 1.7 The OSI Model https://courses.davidbombal.com/courses/1473241/lectures/33856784
+[16] OSI Model Explained: Networking Basics https://www.youtube.com/watch?v=v4sRKGarh5Q
+[17] Lab: OSI Model https://courses.davidbombal.com/courses/1713041/lectures/38823448
+[18] OSI Model animated, What is osi model in networking? 7 OSI layers explained https://www.youtube.com/watch?v=Ca1jnqwqzg0
+[19] 5 months ago https://www.youtube.com/post/UgkxSGONVcoAkqZIvdOTpEeOE3CZHSSUu0sS
+[20] The OSI Model Made EASY for Beginners! https://www.youtube.com/watch?v=x0et8kjp_ac
+[21] TCP/IP Model vs OSI Model https://courses.davidbombal.com/courses/267624/lectures/62660690
+[22] OSI Model Explained | 7 Layer | CCNA | Computer Network https://www.youtube.com/watch?v=knPRYkd_WWc
+[23] TCP/IP Model vs OSI Model (FREE CCNA 200-301 Course 2025 ... https://x.com/davidbombal/status/1905266279474184591
+[24] OSI & TCP/IP Models Explained in 9 minutes https://www.youtube.com/watch?v=6fYsCkvuPbw
+[25] OSI Model Explained | OSI Animation | Open System Interconnection Model | OSI 7 layers | TechTerms https://www.youtube.com/watch?v=vv4y_uOneC0
+[26] Top 10 Networking Certification Courses to Take on Udemy | @SolutionsReview Ranked https://www.youtube.com/watch?v=rVneIZzVVqc
+[27] Udemy course recommendations requested https://www.reddit.com/r/ccnp/comments/1cb0pnk/udemy_course_recommendations_requested/
+[28] [UDEMY DOWNLOAD] The Complete Networking Fundamentals Course. Your CCNA start https://www.youtube.com/watch?v=tcaWBqwjUVs
+[29] Whats the best Udemy course for Net+? https://www.reddit.com/r/CompTIA/comments/1fi6l13/whats_the_best_udemy_course_for_net/
+[30] Which David Bombal Udemy course? https://www.reddit.com/r/ccna/comments/1f3dicx/which_david_bombal_udemy_course/
+[31] The Complete Networking Fundamentals Course. by UDEMY : Fee, Review, Duration | Shiksha Online https://www.shiksha.com/online-courses/the-complete-networking-fundamentals-course-course-udeml217
+[32] I have purchased David Bombal's course on Udemy for CCNA, called "The Complete Networking Fundamentals Course. Your CCNA start" and I had a few questions. https://www.reddit.com/r/ccna/comments/1eo1r5q/i_have_purchased_david_bombals_course_on_udemy/
+[33] IT Troubleshooting Skill Training | Udemy https://udemy.khansubscriptionstore.com/course/it-troubleshooting/
+[34] Where to learn networking fundamentals as a complete beginner? https://www.reddit.com/r/hacking/comments/ubncid/where_to_learn_networking_fundamentals_as_a/
+[35] The Complete Networking Fundamentals Course. Your ... https://www.shiksha.com/online-courses/the-complete-networking-fundamentals-course-your-ccna-start-course-udeml434
+[36] 5 Best Udemy Courses on CompTIA (2025) - Best Udemy Certificates for CompTIA (Make the Right Choice) https://www.youtube.com/watch?v=snOsS-PMAsM
+[37] Which courses/pathway would you recommend if I want to get into networking on Udemy? https://www.reddit.com/r/selfhosted/comments/1cnox5w/which_coursespathway_would_you_recommend_if_i/
+[38] Network Basics - What is a network? // FREE CCNA 200-301 course https://www.youtube.com/watch?v=XSN9xW4pRac
+[39] Best networking courses online https://www.reddit.com/r/sysadmin/comments/uzg4q7/best_networking_courses_online/
