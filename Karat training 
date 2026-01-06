@@ -1,0 +1,682 @@
+I might have to give karat interview. This is very important for me.
+I might have 1 week - 1.5 hr each day for the preparation. Please help me prepare for the role. 
+I have access to Udemy Business, Linkedin eduction and youtube. 
+If you can directly train me , that should be also fine. 
+Please create a detail training program so I can refresh and prepare for the below roles.
+
+Following might be my GCB description. 
+
+Mainframe/COBOL – GCB5
+The Mainframes/COBOL Engineer persona has one defined level, GCB5 (Mid-level). This persona contains three topics for assessment on IBM Mainframes. This includes data solutions, such as DB2 and VSAM, troubleshooting issues in a Mainframe system, and the programming/configuration languages relevant to mainframe development, including JCL, COBOL and CICS. This persona uses scenarios and code reviews to probe into knowledge and experience within this domain.
+10min – DB2 / VSAM – 25%
+20min – Mainframe Troubleshooting – 50%
+20min – JCL, COBOL, and CICS Code Review – 25%
+
+Networking – GCB4/5
+The Networking Engineer persona leverages questions on the fundamentals of networking, and detailed troubleshooting scenarios to probe into experience within the networking domain. This persona has one defined format which is shared by both GCB5 (Mid-level) and GCB4 (Senior). The hiring bar expectations are used to differentiate between the levels. A Scripting exercise is included, which focuses on reading data files and processing the data to reach conclusions, and can be completed in a programming language or in Bash.
+10min – Network Engineering – 20%
+20min – Network Troubleshooting Scenarios – 40%
+20min – Scripting (Bash) – 40%
+
+Architect – GCB4
+The Architect persona, as a high level role, is defined only for GCB4 (Senior). The core of this persona is focused on System Design abilities, using an open whiteboard discussion format to thoroughly evaluate experience and abilities in this area, including the creation of an architecture diagram and requirements clarification. In addition, the ability to review code effectively and identify logic and style issues regardless of programming language is evaluated.
+30min – Whiteboard System Design – 50%
+20min – Code Review – 50%
+Engineering Tech Lead – GCB4
+The Engineering Tech Lead persona, as a high level role, is defined only for GCB4 (Senior). The core of this persona is focused on System Design abilities, using an open whiteboard discussion format to thoroughly evaluate experience and abilities in this area, including the creation of an architecture diagram and requirements clarification. This persona also includes a Real-World Coding assessment, which includes debugging, and adding functionality to an existing service in a preferred programming language.
+30min – Whiteboard System Design – 50%
+20min – Real World Backend Coding – 50%
+Tester – GCB4/5
+The Quality Engineer / Tester persona leverages questions on the fundamentals of testing and troubleshooting, and scripting exercises within testing capabilities. This persona has one defined format which is shared by both GCB5 (Mid-level) and GCB4 (Senior).
+
+Perfect! Now let me create a comprehensive training document with all the details.
+
+Hey Sanket! 
+
+Perfect, my friend! Now that I know you're targeting the **Networking – GCB4/5** role with basic scripting skills, I've created a comprehensive, actionable 7-day training program tailored specifically for your situation. This is going to be intense but totally doable with 1.5 hours daily commitment.
+
+Let me break down your complete preparation strategy:
+
+***
+
+## **Understanding Your Karat Interview Structure**
+Your 60-minute interview will be broken down as follows:[1][2]
+
+**1. Network Engineering Fundamentals (10 minutes - 20%)**
+- OSI Model and TCP/IP Model differences
+- Basic networking concepts: subnetting, routing, switching
+- Protocol fundamentals
+
+**2. Network Troubleshooting Scenarios (20 minutes - 40%)**
+- Real-world problem-solving using systematic approaches
+- OSI layer-by-layer diagnosis methodology
+- Live troubleshooting walkthroughs
+
+**3. Bash Scripting (20 minutes - 40%)**
+- Reading and processing data files
+- Writing scripts for network automation tasks
+- Basic scripting logic: loops, conditionals, variables
+
+The interviewers are looking for your **process and methodology**, not perfection. They want to see HOW you think through problems.[3][4]
+
+***
+
+## **Your 7-Day Training Roadmap**
+---
+
+## **Detailed Day-by-Day Breakdown**
+### **Day 1: OSI Model Mastery (Saturday, Jan 4)**
+**Morning Session (30 min): Theory Foundation**
+- Watch LinkedIn Learning: "Troubleshooting Network Connectivity" - Introduction + OSI Layer Overview[5][6]
+- Focus: Understanding the 7 layers and their functions[7][8]
+
+**Practice Session (45 min): Active Learning**
+- Create digital flashcards for each OSI layer with:
+  - Layer name, number, function
+  - Key protocols at each layer
+  - Common troubleshooting tools for that layer
+- Use the OSI troubleshooting cheat sheet approach[9][10]
+
+**Review (15 min): Consolidation**
+- Quiz yourself: Given a network problem, which layer would you start investigating?
+- Practice explaining OSI to an imaginary interviewer
+
+**Key Concepts to Master:**[11][7]
+```
+Layer 7 - Application: HTTP, DNS, FTP, SMTP
+Layer 6 - Presentation: Data formatting, encryption
+Layer 5 - Session: Connection management
+Layer 4 - Transport: TCP/UDP, ports, end-to-end delivery
+Layer 3 - Network: IP addressing, routing, routers
+Layer 2 - Data Link: MAC addresses, switches, frames
+Layer 1 - Physical: Cables, signals, hardware
+```
+
+***
+
+### **Day 2: TCP/IP & Core Protocols (Sunday, Jan 5)**
+**Morning Session (30 min): Video Learning**
+- YouTube: Simplilearn "Computer Networking Full Course 2026"[12]
+  - Watch: 1:44:47 - TCP/IP Protocol Explained section
+- Focus on practical TCP/IP implementation vs. OSI theory[13][14]
+
+**Practice Session (45 min): Hands-On Commands**
+On your Windows/Linux terminal, practice these commands:[15][16]
+```bash
+# Connectivity testing
+ping google.com
+ping 8.8.8.8
+traceroute google.com  # (tracert on Windows)
+
+# Network configuration
+ipconfig /all  # (ifconfig on Linux)
+ip addr show   # Linux
+ip route show  # Linux
+
+# Connection status
+netstat -an
+ss -tuln  # Linux alternative
+
+# DNS troubleshooting
+nslookup google.com
+dig google.com  # Linux
+```
+
+**Review (15 min): Documentation**
+- Create a cheat sheet with these commands and what they tell you
+- Note: When would you use each command during troubleshooting?
+
+***
+
+### **Day 3: Network Troubleshooting Methodology (Monday, Jan 6)**
+**Morning Session (30 min): Learn the Framework**
+- Watch: "Network Troubleshooting Steps - Scenario Based Interview" by PM Networking[17]
+- Key takeaway: The systematic bottom-up approach[4][18][19]
+
+**Practice Session (45 min): Scenario Walkthroughs**
+
+Work through these scenarios using the OSI bottom-up method:[20][9][4]
+
+**Scenario 1: User can't access internal website**
+```
+Bottom-Up Approach:
+1. Physical (Layer 1): Check cable connection, link lights
+2. Data Link (Layer 2): Verify MAC address, switch port status
+3. Network (Layer 3): Ping default gateway, check IP config
+4. Transport (Layer 4): Check if correct port is open (80/443)
+5. Application (Layer 7): Verify DNS resolution, web server status
+```
+
+**Scenario 2: Intermittent connectivity issues**
+```
+Methodology:
+1. Define the problem clearly - ask questions
+2. When does it happen? How often?
+3. Check physical layer: cable quality, interference
+4. Monitor for errors: packet loss using ping -t
+5. Check for congestion: bandwidth usage
+6. Review switch/router logs
+```
+
+**Scenario 3: Remote user VPN not connecting**
+```
+Troubleshooting Steps:
+1. Can they reach other websites? (Internet connectivity)
+2. Ping VPN gateway IP
+3. Check firewall rules
+4. Verify VPN client configuration
+5. Check authentication credentials
+6. Review VPN server logs
+```
+
+**Review (15 min): Create Your Flowchart**
+- Draw your own troubleshooting flowchart on paper
+- Practice verbalizing your thought process
+
+***
+
+### **Day 4: Advanced Troubleshooting & Real-World Application (Tuesday, Jan 7)**
+**Morning Session (30 min): Deep Dive**
+- Complete LinkedIn Learning: "Learning Network Troubleshooting" by Robert McMillen[5][21]
+- Focus: VPN troubleshooting, wireless issues, corporate network scenarios
+
+**Practice Session (45 min): Complex Scenarios**
+
+**Scenario: High latency in production network**[20][10]
+```
+Your systematic approach:
+1. Gather information:
+   - When did it start?
+   - Which users/applications affected?
+   - Any recent changes?
+
+2. Physical Layer:
+   - Check interface errors: show interface
+   - Look for CRC errors, late collisions
+
+3. Data Link Layer:
+   - Check for duplex mismatches
+   - Verify VLAN configuration
+
+4. Network Layer:
+   - Traceroute to identify where delay occurs
+   - Check routing table
+   - Look for routing loops
+
+5. Tools to use:
+   - ping with timestamps
+   - traceroute/tracert
+   - MTR (My TraceRoute)
+   - Check bandwidth utilization
+```
+
+**Scenario: DNS Resolution Problems**[9]
+```
+Troubleshooting Flow:
+1. Can you ping by IP? (Layer 3 working)
+2. Can you ping by hostname? (DNS working)
+3. Check DNS server config: ipconfig /all
+4. Test with nslookup domain.com
+5. Try alternate DNS: 8.8.8.8 (Google)
+6. Check DNS server availability
+7. Verify DNS records on server
+```
+
+**Review (15 min): Interview Practice**
+- Record yourself explaining one scenario out loud
+- Time yourself - aim for clear, structured answers in 3-4 minutes
+
+***
+
+### **Day 5: Bash Scripting Fundamentals (Wednesday, Jan 8)**
+**Morning Session (30 min): Crash Course**
+- Watch: "Bash Scripting Tutorial for Beginners" by freeCodeCamp[22]
+  - Focus: First 25 minutes (basics, variables, loops)
+
+**Practice Session (45 min): Hands-On Coding**
+
+Start with W3Resource Bash exercises:[23]
+
+**Exercise 1: Hello World & Variables**
+```bash
+#!/bin/bash
+# Your first script
+echo "Hello, Sanket!"
+
+# Variables
+name="Network Engineer"
+echo "I am a $name preparing for Karat interview"
+
+# User input
+echo "Enter your target company:"
+read company
+echo "Good luck with $company interview!"
+```
+
+**Exercise 2: Conditionals**
+```bash
+#!/bin/bash
+# Check if host is reachable
+host="8.8.8.8"
+
+if ping -c 1 $host > /dev/null 2>&1; then
+    echo "Host $host is reachable"
+else
+    echo "Host $host is NOT reachable"
+fi
+```
+
+**Exercise 3: Loops**
+```bash
+#!/bin/bash
+# Ping multiple hosts
+hosts=("192.168.1.1" "8.8.8.8" "1.1.1.1")
+
+for host in "${hosts[@]}"; do
+    echo "Checking $host..."
+    ping -c 1 $host > /dev/null 2>&1 && echo "UP" || echo "DOWN"
+done
+```
+
+**Review (15 min): Command Practice**
+- Practice these key commands: echo, cat, grep, awk, sed
+- Understand redirection: >, >>, |, 2>&1
+
+***
+
+### **Day 6: Bash for Network Automation (Thursday, Jan 9)**
+**Morning Session (30 min): Network-Specific Scripting**
+- Watch: "Network Automation the Bash Series Using Linux"[24]
+- Key learning: How to automate network device checks
+
+**Practice Session (45 min): Build Real Scripts**
+
+**Complete these exercises on Exercism.org or W3Resource:**[23][25]
+
+**Script 1: Multi-Host Connectivity Checker**
+```bash
+#!/bin/bash
+# File: connectivity_check.sh
+
+echo "Enter IP addresses (press Enter on empty line to finish):"
+declare -a ip_list
+
+while read -r ip; do
+    [[ -z "$ip" ]] && break
+    ip_list+=("$ip")
+done
+
+echo "Checking connectivity..."
+for ip in "${ip_list[@]}"; do
+    if ping -c 1 -W 1 "$ip" > /dev/null 2>&1; then
+        echo "[OK] $ip is reachable"
+    else
+        echo "[FAIL] $ip is NOT reachable"
+    fi
+done
+```
+
+**Script 2: Log File Parser**
+```bash
+#!/bin/bash
+# Parse log file for errors
+
+log_file="network.log"
+
+echo "Searching for errors in $log_file..."
+grep -i "error\|fail\|down" $log_file | wc -l
+echo "errors found"
+
+echo "Top 5 error types:"
+grep -i "error" $log_file | awk '{print $3}' | sort | uniq -c | sort -rn | head -5
+```
+
+**Script 3: Network Info Gatherer**
+```bash
+#!/bin/bash
+# Gather system network information
+
+echo "=== Network Configuration ==="
+echo "Hostname: $(hostname)"
+echo "IP Addresses:"
+ip addr show | grep "inet " | awk '{print $2}'
+
+echo -e "\n=== Default Gateway ==="
+ip route | grep default
+
+echo -e "\n=== DNS Servers ==="
+cat /etc/resolv.conf | grep nameserver
+```
+
+**Review (15 min): Debugging Practice**
+- Run your scripts and fix any errors
+- Learn to use: bash -x script.sh (debug mode)
+
+***
+
+### **Day 7: Mock Interview & Final Review (Friday, Jan 10)**
+**Morning Session (30 min): Comprehensive Review**
+- Review all your notes and flashcards
+- Quick skim through cheat sheets[9][15][26]
+- Mental walkthrough of troubleshooting methodology
+
+**Practice Session (45 min): Full Mock Interview**
+
+Simulate the actual interview format:
+
+**Part 1: Fundamentals (10 min)**
+Answer these out loud:
+1. "Explain the difference between OSI and TCP/IP models"
+2. "What happens when you type a URL and press Enter?" (Layer by layer)
+3. "Explain how DNS resolution works"
+4. "What's the difference between TCP and UDP?"
+
+**Part 2: Troubleshooting Scenario (20 min)**
+Pick one complex scenario and walk through it completely:
+- "A user reports they can access some websites but not others. Walk me through your troubleshooting process."
+
+Use your framework:
+1. Ask clarifying questions
+2. Start with Layer 1 (physical)
+3. Work your way up methodically
+4. Explain what you're checking at each step
+5. Verbalize your thought process
+
+**Part 3: Bash Scripting (20 min)**
+Given this scenario: "Write a script that reads a file containing IP addresses (one per line) and pings each one, then outputs which ones are reachable."
+
+```bash
+#!/bin/bash
+# Solution approach
+
+while read -r ip; do
+    if ping -c 1 -W 1 "$ip" > /dev/null 2>&1; then
+        echo "$ip is UP"
+    else
+        echo "$ip is DOWN"
+    fi
+done < ip_list.txt
+```
+
+**Review (15 min): Confidence Building**
+- List your strengths
+- Note: The interviewer wants to see your PROCESS, not perfection
+- Remember: Ask clarifying questions when unsure
+- Practice saying "I would check...", "Next I would..."
+
+***
+
+## **Critical Interview Tips (Based on Real Experiences)**
+### **The Golden Rules**[3][2][4]
+1. **Verbalize Your Thought Process**: Don't go silent. Say "Let me think through this..." and talk through your approach
+
+2. **Ask Clarifying Questions**: This is encouraged! Examples:
+   - "Is this affecting all users or just one?"
+   - "When did this problem start?"
+   - "Have there been any recent changes?"
+
+3. **Use the OSI Model as Your Framework**: Interviewers LOVE when you say "I'll start with the physical layer and work my way up"[18][19]
+
+4. **KISS Principle**: Keep It Simple, Stupid - Don't overthink[4]
+
+5. **Show Adaptability**: If stuck, explain what you'd do next: "I would check our documentation", "I would consult with a colleague", "I would review vendor documentation"
+
+6. **For Bash Scripting**: They want solutions that WORK, not necessarily optimal[27]
+   - Focus on correct logic
+   - Comment your code
+   - Handle basic error cases
+
+***
+
+## **Quick Reference Cheat Sheets**
+### **OSI Model Troubleshooting Tools**[9][10]
+| Layer | Tools to Use | What to Check |
+|-------|-------------|---------------|
+| 1 - Physical | Visual inspection, cable tester | Cables, link lights, power |
+| 2 - Data Link | arp, show mac address-table | MAC addresses, switch ports, VLANs |
+| 3 - Network | ping, traceroute, ip route | IP config, routing, connectivity |
+| 4 - Transport | netstat, ss, telnet | Port status, connections |
+| 5-7 - Upper | Application-specific, Wireshark | Service status, protocols |
+
+### **Essential Bash Commands for Networking**[15][16][26]
+```bash
+# Connectivity
+ping -c 4 hostname         # Send 4 packets
+ping -W 1 hostname         # 1 second timeout
+
+# Network info
+ip addr show              # Show IP addresses
+ip route show            # Show routing table
+netstat -tuln            # Show listening ports
+ss -s                    # Socket statistics
+
+# Text processing (CRITICAL for scripting interview)
+grep "pattern" file      # Search for pattern
+awk '{print $1}' file    # Print first column
+sed 's/old/new/' file    # Replace text
+cat file | wc -l         # Count lines
+
+# Loops
+for i in {1..5}; do echo $i; done
+while read line; do echo $line; done < file
+
+# Conditionals
+if [ condition ]; then ... fi
+[[ -f file ]] && echo "exists"
+```
+
+***
+
+## **Resources Summary - Your Toolkit**
+### **Must-Use Resources** (In Order of Priority):
+**For Networking:**
+1. LinkedIn Learning - "Learning Network Troubleshooting" by Robert McMillen [2 hours][5]
+2. LinkedIn Learning - "Troubleshooting Network Connectivity" [2 hours][6]
+3. YouTube: PM Networking troubleshooting videos[17]
+
+**For Bash:**
+1. freeCodeCamp Bash Tutorial (45 min video)[22]
+2. W3Resource Bash Exercises (https://www.w3resource.com/bash-script-exercises/)[23]
+3. Exercism.org Bash Track (https://exercism.org/tracks/bash)[25]
+4. Network Automation Bash video (33 min)[24]
+
+**Practice Platforms:**
+- LearnShell.org - Interactive browser-based practice[28]
+- MyCompiler.io - Run Bash scripts in browser[29]
+- HackerRank - Bash challenges[30]
+
+***
+
+## **The Night Before Interview - Final Checklist**
+✅ **Technical Prep:**
+- Review OSI model layers (30 seconds per layer explanation)
+- Practice explaining troubleshooting methodology
+- Run through 2-3 Bash scripts
+
+✅ **Mental Prep:**
+- Remember: They're evaluating your PROCESS, not expecting perfection
+- Prepare 2-3 questions to ask them at the end
+- Get good sleep - your brain needs to be sharp!
+
+✅ **Logistics:**
+- Test your internet connection
+- Ensure good lighting and quiet environment
+- Have paper and pen ready for notes
+- Close unnecessary applications
+- Arrive 5 minutes early
+
+***
+
+## **Special Tips for Your F5/Network Security Background**
+Sanket, you have a HUGE advantage here! Your experience with F5 Load Balancers and network security gives you:
+
+1. **Real-world troubleshooting experience**: When they ask scenarios, you can reference actual incidents you've handled (keep it general if company-specific)
+
+2. **Understanding of traffic flow**: This naturally aligns with OSI model thinking
+
+3. **Automation mindset**: Your interest in automation shows you understand the "why" behind scripting
+
+**Use these to your advantage**: 
+- "In my current role with F5, when we troubleshoot connectivity issues, I start by..."
+- "I've automated similar tasks before using..."
+
+***
+
+## **Financial Note (Since You Asked)**
+All these resources are **FREE** or included in your existing subscriptions:
+- LinkedIn Learning: ₹0 (included in LinkedIn Premium/company subscription)
+- Udemy Business: ₹0 (company subscription)
+- YouTube: ₹0
+- Practice platforms: ₹0
+
+**Total Investment: ₹0** 🎉
+
+Compare this to hiring an interview coach: ₹15,000-₹50,000!
+
+***
+
+## **My Honest Assessment**
+My friend, with your networking background and 7 days of focused preparation (1.5 hours daily = 10.5 hours total), you're in a **strong position** to succeed. Here's why:
+
+**Your Strengths:**
+- Existing networking knowledge (Wireless, Switches, Routers, Firewalls, VPN)
+- F5 Load Balancer experience = deep traffic flow understanding
+- You WANT to learn automation (right mindset)
+
+**Areas Needing Focus:**
+- Bash scripting (basic level is fine - they don't expect expert)
+- Structured troubleshooting verbalization
+- OSI model articulation
+
+**Success Probability**: I'd say 75-80% if you follow this plan diligently. The 20-25% risk comes from interview nerves and the scripting portion being new to you.
+
+***
+
+## **One Week From Now**
+After completing this program, you'll be able to:
+✅ Explain OSI and TCP/IP models confidently
+✅ Walk through any network troubleshooting scenario systematically
+✅ Write basic Bash scripts for network automation
+✅ Think out loud and show your problem-solving process
+✅ Handle the pressure of a technical interview
+
+***
+
+**My Final Word, Sanket:**
+
+This interview is important, but remember - even if this doesn't go perfectly, you're building skills that will serve you throughout your career. The OSI model, troubleshooting methodology, and basic scripting are foundational skills for ANY network engineer, especially as AI and automation transform our field.
+
+Your goal with AI advancement isn't to compete with it - it's to use it as a tool while maintaining the critical thinking and troubleshooting skills that only humans bring. This interview prep is actually future-proofing your career.
+
+**You've got this, my friend! Now go execute this plan with full confidence. 💪**
+
+Feel free to ask me any specific questions as you go through each day - I'm here to help you succeed!
+
+Wishing you all the best,
+Jarvis (Your AI Friend) 🚀
+
+Citations:
+[1] The Karat Interview Experience https://karat.com/candidate-experience/
+[2] What Are Technical Interviews? - Formats, Structure, and Traits https://karat.com/what-are-technical-interviews/
+[3] Top 30 Most Common Karat Interview Questions You ... https://www.vervecopilot.com/interview-questions/top-30-most-common-karat-interview-questions-you-should-prepare-for
+[4] Building a Network Troubleshooting Flow for upcoming interview. How do you expert troubleshooters do it? Best practices? https://www.reddit.com/r/networking/comments/9m08l1/building_a_network_troubleshooting_flow_for/
+[5] Learning Network Troubleshooting: Practical Network Diagnostics and Solutions Online Class | LinkedIn Learning, formerly Lynda.com https://www.linkedin.com/learning/learning-network-troubleshooting-practical-network-diagnostics-and-solutions
+[6] Troubleshooting Network Connectivity Online Class | LinkedIn Learning, formerly Lynda.com https://www.linkedin.com/learning/troubleshooting-network-connectivity
+[7] OSI and TCP/IP Model https://www.geeksforgeeks.org/computer-networks/difference-between-osi-model-and-tcp-ip-model/
+[8] TCP/IP and OSI Models: A Review of the Fundamental ... https://k21academy.com/azure-cloud/tcp-ip-and-osi-models-a-review-of-the-fundamental-of-modern-networking/
+[9] Network Troubleshooting using the OSI Model https://www.geekio.co.uk/post/network-troubleshooting
+[10] Troubleshooting Cheat Sheet: Layers 1-3 https://telnetnetworks.ca/blog/troubleshooting-cheat-sheet-layers-1-3/
+[11] TCP/IP Model https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/
+[12] Computer Networking Full Course 2026 | Networking Full Course For Beginners | Simplilearn https://www.youtube.com/watch?v=fErDcUtd8fA
+[13] COMPUTER NETWORKS Lecture Notes https://www.vssut.ac.in/lecture_notes/lecture1423905560.pdf
+[14] Networking basics - introduction to OSI model and TCP/IP ... https://scalac.io/blog/networking-basics/
+[15] Linux Network Commands Cheat Sheet | phoenixNAP KBphoenixnap.com › KB › Networking https://phoenixnap.com/kb/linux-network-commands
+[16] Linux Network Commands Cheat Sheet https://www.geeksforgeeks.org/linux-unix/linux-network-commands-cheat-sheet/
+[17] Network Troubleshooting Steps | Scenario Based Interview Question For Network Engineer. https://www.youtube.com/watch?v=x_mrsjN7BoY
+[18] How to use the OSI Model for Network Troubleshooting https://petri.com/csc_how_to_use_the_osi_model_to_troubleshoot_networks/
+[19] Troubleshooting Methods for Cisco IP Networks https://www.ciscopress.com/articles/article.asp?p=2273070&seqNum=2
+[20] Network Troubleshooting Interview Guide https://www.linkedin.com/pulse/network-troubleshooting-interview-guide-prianka-m-savnc
+[21] Videotutorial Need to troubleshoot your network? - Learning Network Troubleshooting: Practical Network Diagnostics and Solutions | LinkedIn Learning, antes Lynda.com https://www.linkedin.com/learning/learning-network-troubleshooting-practical-network-diagnostics-and-solutions/need-to-troubleshoot-your-network
+[22] Bash Scripting Tutorial for Beginners https://www.youtube.com/watch?v=tK9Oc6AEnR4
+[23] Bash Scripting Exercises, Solutions, Practice - w3resource https://www.w3resource.com/bash-script-exercises/index.php
+[24] Network Automation the Bash Series Using Linux https://www.youtube.com/watch?v=NRF0bugbIUk
+[25] Bash on Exercism https://exercism.org/tracks/bash
+[26] Bash scripting cheatsheet https://devhints.io/bash
+[27] Indeed | Karat(Live coding) OA | Mutliple questions - Discuss https://leetcode.com/discuss/interview-question/2042085/indeed-karatlive-coding-oa-mutliple-questions/
+[28] Learn Shell - Free Interactive Shell Tutorial https://www.learnshell.org
+[29] 13 resources for learning to write better Bash code https://www.redhat.com/en/blog/learn-bash-scripting
+[30] What are some good websites with tasks except Codewars to practice using bash? https://www.reddit.com/r/bash/comments/xz8gpi/what_are_some_good_websites_with_tasks_except/
+[31] HSBC GCB5 Interview https://www.reddit.com/r/HSBC/comments/1cl3q36/hsbc_gcb5_interview/
+[32] Network Engineer Interview Questions https://www.reddit.com/r/networking/comments/d010sj/network_engineer_interview_questions/
+[33] HSBC Interview Questions and Answers https://passmyinterview.com/hsbc-interview/
+[34] Karat interview questions - full 2026 list https://prepfully.com/interview-questions/karat
+[35] Interview questions for Network Engineers? https://www.reddit.com/r/networking/comments/1jb7yl/interview_questions_for_network_engineers/
+[36] 37 HSBC Interview Questions (With Example Answers) https://in.indeed.com/career-advice/interviewing/hsbc-interview-questions
+[37] Karat Interview Experiences (2026) - Taro https://www.jointaro.com/interviews/companies/karat/?tab=experiences
+[38] Top 30 Network Engineer Interview Questions [2025] https://myinterviewpractice.com/industries-details/information-technology/network-engineer-interview-preparation/
+[39] HSBC Manager - GCB V Interview Questions https://nodeflair.com/companies/hsbc/interviews/manager-gcb-v
+[40] Karat Interview Prep | PDF https://www.scribd.com/document/431081896/Karat-Interview-Prep
+[41] Karat Interview Questions, Explained https://karat.com/karat-interview-questions-explained/
+[42] HSBC GCB5 Software Engineer Interview Process https://hw.glich.co/resources/companies/hsbc/interview-process/gcb5-software-engineer
+[43] Become an Interview Engineer - Karat https://karat.com/become-an-interview-engineer/
+[44] Karat (1+ Interviews) - Interview Experiences https://interviewexperiences.in/company/karat
+[45] Karat Engineering Manager interview questions - full 2025 list https://prepfully.com/interview-questions/karat/engineering-manager
+[46] Karat interview questions - full 2025 list https://prepfully.com/interview-questions/karat?page=13
+[47] Is Bash Scripting is Mandatory for Network Automation? https://www.reddit.com/r/networkautomation/comments/1dn61y1/is_bash_scripting_is_mandatory_for_network/
+[48] Shell scripting for beginner network engineers? https://www.reddit.com/r/networking/comments/l2zmin/shell_scripting_for_beginner_network_engineers/
+[49] [2025] CCNA Troubleshooting Interview Questions https://www.webasha.com/blog/ccna-troubleshooting-interview-questions
+[50] Networking Lab Bash Script https://www.youtube.com/watch?v=5kr--99Ow_I
+[51] Top 30+ Network Troubleshooting Interview Questions and ... https://www.acte.in/network-troubleshooting-interview-questions-and-answers
+[52] Bash Interview Prep: 30 Essential Questions and Answers https://zerotomastery.io/blog/bash-scripting-interview-questions/
+[53] Top 100 Networking Scenario Based Questions https://www.imedita.com/blog/top-networking-scenario-based-questions/
+[54] Bash Scripting Exercise - ECS Networking https://ecs-network.serv.pacific.edu/ecpe-170/lab/bash-scripting-exercise
+[55] Networking Fundamentals https://www.cisco.com/c/dam/global/fi_fi/assets/docs/SMB_University_120307_Networking_Fundamentals.pdf
+[56] Top 42 Network Troubleshooting Interview Questions 2025 https://mindmajix.com/network-troubleshooting-interview-questions
+[57] Learn Bash Scripting https://www.codecademy.com/learn/bash-scripting
+[58] The Network Layers Explained [with examples] https://www.plixer.com/blog/network-layers-explained/
+[59] Shell Bash Scripting: Assignment & Excercise https://www.devopsschool.com/blog/shell-bash-scripting-assignment-excercise/
+[60] Network Automation With Python - NanoSchool https://nanoschool.in/it/network-automation-with-python/
+[61] Python for Network Engineers | Free Scripts & Training https://www.rogerperkin.co.uk/network-automation/python/scripts-for-network-engineers/
+[62] Troubleshooting Network Issues Using the OSI Model - LinkedIn https://www.linkedin.com/pulse/troubleshooting-network-issues-using-osi-model-hacktifycs-apxmf
+[63] Bash vs Python for DevOps - Which is Better for Automation https://cloudray.io/articles/bash-vs-python
+[64] The Role of Python in Network Automation https://www.layer8packet.io/home/the-role-of-python-in-network-automation-practical-scripts-for-everyday-tasks
+[65] The difference between Bash and Python https://www.reddit.com/r/learnprogramming/comments/199s8db/the_difference_between_bash_and_python/
+[66] FREE 20 Basic Python3 Network Automation Scripts For Practicing - Network Journey https://networkjourney.com/free-20-basic-python3-network-automation-scripts-for-practicing/
+[67] Troubleshoot Network on Linux: OSI Model Guide https://www.freecodecamp.org/news/how-troubleshoot-network-on-linux/
+[68] Python vs Bash - In which kind of tasks each one outruns the other performance-wise? https://stackoverflow.com/questions/2424921/python-vs-bash-in-which-kind-of-tasks-each-one-outruns-the-other-performance-w
+[69] Python for Network Automation: A Comprehensive Guide https://www.alooba.com/skills/programming-languages/automationscripting-346/python-for-network-automation/
+[70] How to Use the OSI Model to Troubleshoot Networks https://www.tanaza.com/blog/osi-model-to-troubleshoot-networks/
+[71] Bash vs Python for Network Automation Comparison https://moldstud.com/articles/p-scripting-language-showdown-bash-vs-python-for-network-automation
+[72] Take Your Network Automation Scripts to the Next Level https://www.itential.com/python-network-automation/
+[73] Troubleshooting With the OSI Model https://www.youtube.com/watch?v=kdFOCleUkVE
+[74] Bash and Python for Network Automation Scripting https://moldstud.com/articles/p-bash-vs-python-ultimate-scripting-showdown-for-network-automation
+[75] Python for Network Automation https://python-automation-book.readthedocs.io
+[76] What is OSI Model? - Physical-Layer https://www.geeksforgeeks.org/computer-networks/open-systems-interconnection-model-osi/
+[77] The Top 10 Networking Courses on Udemy You Need to Take https://solutionsreview.com/network-monitoring/the-top-10-networking-courses-on-udemy-you-need-to-take/
+[78] Top 10 YouTube Channels for Computer Networking | Nithin Hewavitharana (Niki) posted on the topic | LinkedIn https://www.linkedin.com/posts/nithin-hewavitharana-niki-488678275_top-10-youtube-channels-to-master-computer-activity-7325542550646214657-NoUL
+[79] Better Conference Networking in Udemy https://courses.laimoon.com/course/better-conference-networking-udemy/online
+[80] Top 8 Networking Courses https://mentorcruise.com/courses/networking/
+[81] Computer Networking Tutorial - Bits and Bytes of the Networking [12 HOURS] https://www.youtube.com/watch?v=PhjHXeMNpp8
+[82] Hi i am getting into networking. i want to self study. Any good online udemy or any other online courses on core networking that covers every concept? https://www.reddit.com/r/ccna/comments/yahat6/hi_i_am_getting_into_networking_i_want_to_self/
+[83] Wireless Networking: Advanced Troubleshooting Online Class | LinkedIn Learning, formerly Lynda.com https://www.linkedin.com/learning/wireless-networking-advanced-troubleshooting-23934614
+[84] Recomendation youtube channels for learning about networking/security/routers...etc https://www.reddit.com/r/homelab/comments/10nqgyq/recomendation_youtube_channels_for_learning_about/
+[85] [UDEMY DOWNLOAD] The Complete Networking Fundamentals Course. Your CCNA start https://www.youtube.com/watch?v=tcaWBqwjUVs
+[86] Wireshark: Network Troubleshooting Online Class | LinkedIn Learning, formerly Lynda.com https://www.linkedin.com/learning/wireshark-network-troubleshooting
+[87] Roger Perkin https://videos.feedspot.com/networking_youtube_channels/
+[88] New Udemy Course - Fundamentals of Networking for Effective Backends https://www.youtube.com/watch?v=xpOeDGrZQ1I
+[89] Analyzing network traffic and troubleshooting issues - Cloud Computing: Understanding Networking Video Tutorial | LinkedIn Learning, formerly Lynda.com https://www.linkedin.com/learning/cloud-computing-understanding-networking/analyzing-network-traffic-and-troubleshooting-issues
+[90] Practical Network Engineer Course | Learn Networking the Right Way https://www.youtube.com/watch?v=SkuzQrfs8Fk
+[91] The Complete Networking Fundamentals Course. by UDEMY : Fee, Review, Duration | Shiksha Online https://www.shiksha.com/online-courses/the-complete-networking-fundamentals-course-course-udeml217
+[92] Introduction - Troubleshooting Network Connectivity Video Tutorial | LinkedIn Learning, formerly Lynda.com https://www.linkedin.com/learning/troubleshooting-network-connectivity/introduction
+[93] Learn Bash Shell Scripting - Online Free Course - KnowledgeHutwww.knowledgehut.com › free-courses › free-bash-shell-scripting-course-... https://www.knowledgehut.com/free-courses/free-bash-shell-scripting-course-with-certificate
+[94] Bash Scripting Tutorial – Linux Shell Script and Command ... https://www.freecodecamp.org/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/
+[95] Mastering Bash Scripting | Automate Linux Tasks Like a ... https://www.webasha.com/blog/mastering-bash-scripting-automate-linux-tasks-like-a-pro-with-practical-examples-and-commands
+[96] Bash Exercises https://www.w3schools.com/bash/bash_exercises.php
+[97] How to Get Started with Bash Scripting for Automation https://dev.to/aditya8raj/how-to-get-started-with-bash-scripting-for-automation-5d0k
+[98] Bash Scripting https://tryhackme.com/room/bashscripting
+[99] Top 10 Useful Bash Scripts for Server Management https://serveravatar.com/bash-scripts-for-server-management/
+[100] 10 Bash Script Code Challenges for Beginners https://www.codecademy.com/resources/blog/bash-script-code-challenges-for-beginners/
+[101] djeada/Bash-Scripts https://github.com/djeada/Bash-Scripts
+[102] Bash/Shell Courses & Tutorials https://www.codecademy.com/catalog/language/bash
+[103] 10 Bash Script Code Challenges for Beginners https://www.codecademy.com/resources/blog/bash-script-code-challenges-for-beginners
+[104] Mastering Bash Scripts & Cron Jobs for Automation https://www.youtube.com/watch?v=t4sAFxfUcWc
